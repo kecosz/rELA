@@ -1,6 +1,7 @@
 # rELA
-An R package for energy landscape analysis
-To run it on MAC OS Ventura 13
+An R package for energy landscape analysis  
+  
+### To run it on MAC OS Ventura 13
 
 Install Homebrew
 ```
