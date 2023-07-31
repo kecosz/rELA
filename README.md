@@ -1,5 +1,6 @@
 # rELA
-An R package for energy landscape analysis  
+An R package for energy landscape analysis. The latest version is 0.42.
+Thanks to Dr. Raphael M. Kronberg for his suggestion about using shorter strings for indicating stable states.  
   
 ### To run it on MAC OS Ventura 13
 
