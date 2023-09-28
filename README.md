@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/645960152.svg)](https://zenodo.org/badge/latestdoi/645960152)
 # rELA
 An R package for energy landscape analysis. The latest version is 0.43.
 Thanks to Dr. Raphael M. Kronberg for his suggestion about using shorter strings for indicating stable states.  
