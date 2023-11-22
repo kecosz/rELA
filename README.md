@@ -13,12 +13,17 @@ Reference:
 
 ## How to run
 ### Prerequisits
-- Python 3.8
-- pipenv
-- numpy
+- R 4.3
+- Rcpp
+- RcppArmadillo
+- doParallel
 
+### On Google Colab
+See ipynb file
 
-### To run it on MAC OS Ventura 13
+### On Windows
+
+### On MAC OS (Ventura 13)
 
 Install Homebrew
 ```
