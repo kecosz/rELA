@@ -85,10 +85,11 @@ Execute the following command at the terminal:
 
 4. Open the google colab notebook
 
-5. Select “Connect to Local Runtime” in the upper right (▼)
-  - Paste the copied token after 'token=' and click “Connect”.
+5. Connect to local runtime  
+Select “Connect to Local Runtime” in the upper right (▼) and paste the copied token after 'token=' and click “Connect”.
 
 6. Tips
-  - File operations in mounted folders
-    You can read files in mounted folders. When you write a file to a mounted folder, it is reflected in the corresponding local (host-side) folder.
+  - You can read files in the mounted folder. When you write a file to the folder, it is reflected in the corresponding local (host-side) folder.
+  - You can force the local runtime to close by selecting the terminal window and pressing `Ctrl+C Ctrl+C`.
+  - 
 
