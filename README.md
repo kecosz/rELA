@@ -18,9 +18,6 @@ Reference:
 - RcppArmadillo
 - doParallel
 
-### On Google Colab
-See ipynb file
-
 ### On Windows
 
 ### On MAC OS (Ventura 13)
@@ -62,3 +59,37 @@ install.packages("doParallel")
 install.packages("rELA/rELA.v0.21.tar.gz", type = "source")
 library("rELA")
 ```
+
+### On Google Colab
+See ipynb file
+
+#### Use local runtime
+Google Colab normally runs calculations on a virtual machine, but by following the steps below, you can use your local machine's computing resources.
+
+1. Install Docker
+This is necessary if you have not installed Docker.
+https://docs.docker.com/engine/install/  
+Please pay attention to the initial resource allocation settings and change them if necessary.
+
+2. Create a working directory (can be omitted)
+Ex. c:/mnt/rELA_test
+(The data is also placed in the working directory in the form of c:/mnt/rELA_test/data/..)
+
+3. Start Google colab runtime
+(for the latest information see: https://research.google.com/colaboratory/local-runtimes.html?hl=ja)
+Execute the following command at the terminal:
+`docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime`  
+(You can change “c/mnt/rELA_test” to match the location of your working directory)  
+(On Windows, you need to include the volume label “c:” as the top-level folder)
+
+**After running, copy the token that is displayed at the end.**
+
+4. Open the google colab notebook
+
+5. Select “Connect to Local Runtime” in the upper right (▼)
+  - Paste the copied token after 'token=' and click “Connect”.
+
+6. Tips
+  - File operations in mounted folders
+    You can read files in mounted folders. When you write a file to a mounted folder, it is reflected in the corresponding local (host-side) folder.
+
