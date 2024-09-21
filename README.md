@@ -79,7 +79,7 @@ Ex. `c:/mnt/rELA_test`
 Execute the following command at the terminal:  
 
 ```
-docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime
+docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime  
 ```
 
     - You can change “c/mnt/rELA_test” to match the location of your working directory  
@@ -90,7 +90,7 @@ docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-doc
 5. Open the google colab notebook
 
 6. Connect to local runtime  
-Select “Connect to Local Runtime” in the upper right (`▼`) and paste the copied token after `token=` and click `Connect`.
+Select `Connect to Local Runtime` in the upper right (`▼`) and paste the copied token after `token=` and click `Connect`.
 
 7. Tips
     - You can read files in the mounted folder. When you write a file to the folder, it is reflected in the corresponding local (host-side) folder.
