@@ -93,5 +93,5 @@ Select “Connect to Local Runtime” in the upper right (▼) and paste the cop
 7. Tips
     - You can read files in the mounted folder. When you write a file to the folder, it is reflected in the corresponding local (host-side) folder.
     - You can force the local runtime to close by selecting the terminal window and pressing `Ctrl+C Ctrl+C`.
-    - 
+    -   
 
