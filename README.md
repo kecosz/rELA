@@ -73,23 +73,25 @@ Please pay attention to the initial resource allocation settings and change them
 
 2. Create a working directory (can be omitted)  
 Ex. c:/mnt/rELA_test
-(The data is also placed in the working directory in the form of c:/mnt/rELA_test/data/..)
+(The data is also placed in the working directory like `c:/mnt/rELA_test/data/..`)
 
 3. Start Google colab runtime (for the latest information see: https://research.google.com/colaboratory/local-runtimes.html)  
 Execute the following command at the terminal:  
-`docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime`  
+```
+docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime
+```
     - You can change “c/mnt/rELA_test” to match the location of your working directory  
     - On Windows, you need to include the volume label “c:” as the top-level folder
   
     **After running, copy the token displayed at the end.**
 
-4. Open the google colab notebook
+5. Open the google colab notebook
 
-5. Connect to local runtime  
+6. Connect to local runtime  
 Select “Connect to Local Runtime” in the upper right (▼) and paste the copied token after 'token=' and click “Connect”.
 
-6. Tips
-  - You can read files in the mounted folder. When you write a file to the folder, it is reflected in the corresponding local (host-side) folder.
-  - You can force the local runtime to close by selecting the terminal window and pressing `Ctrl+C Ctrl+C`.
-  - 
+7. Tips
+    - You can read files in the mounted folder. When you write a file to the folder, it is reflected in the corresponding local (host-side) folder.
+    - You can force the local runtime to close by selecting the terminal window and pressing `Ctrl+C Ctrl+C`.
+    - 
 
