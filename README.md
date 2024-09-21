@@ -84,7 +84,7 @@ Execute the following command at the terminal:
     - You can change “c/mnt/rELA_test” to match the location of your working directory  
     - On Windows, you need to include the volume label `c:` as the top-level folder  
 
-  **After running, copy the token displayed at the end.**
+    **After running, copy the token displayed at the end.**
 
 5. Open the google colab notebook
 
