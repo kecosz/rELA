@@ -67,15 +67,16 @@ See ipynb file
 Google Colab normally runs calculations on a virtual machine, but by following the steps below, you can use your local machine's computing resources.
 
 1. Install Docker
-This is necessary if you have not installed Docker.
+
+This is necessary if you have not installed Docker.  
 https://docs.docker.com/engine/install/  
 Please pay attention to the initial resource allocation settings and change them if necessary.
 
-2. Create a working directory (can be omitted)
+3. Create a working directory (can be omitted)  
 Ex. c:/mnt/rELA_test
 (The data is also placed in the working directory in the form of c:/mnt/rELA_test/data/..)
 
-3. Start Google colab runtime
+4. Start Google colab runtime
 (for the latest information see: https://research.google.com/colaboratory/local-runtimes.html?hl=ja)
 Execute the following command at the terminal:
 `docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime`  
