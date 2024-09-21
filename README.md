@@ -78,10 +78,7 @@ Ex. `c:/mnt/rELA_test`
 3. Start Google colab runtime (for the latest information see: https://research.google.com/colaboratory/local-runtimes.html)  
 Execute the following command at the terminal:  
 
-```
-docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime
-```
-
+> docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime
 
     - You can change “c/mnt/rELA_test” to match the location of your working directory  
     - On Windows, you need to include the volume label `c:` as the top-level folder
