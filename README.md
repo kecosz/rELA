@@ -79,7 +79,7 @@ Ex. `c:/mnt/rELA_test`
 Execute the following command at the terminal:  
 
 ```
-docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime  
+docker run -v /c/mnt/rELA_test:/contents/rELA_test -p 127.0.0.1:8888:8080 us-docker.pkg.dev/colab-images/public/runtime
 ```
 
     - You can change “c/mnt/rELA_test” to match the location of your working directory  
