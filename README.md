@@ -1,6 +1,11 @@
 [![DOI](https://zenodo.org/badge/645960152.svg)](https://zenodo.org/badge/latestdoi/645960152)
 # rELA
-An R package for energy landscape analysis. The latest version is 0.52.
+An R package for energy landscape analysis. The latest version is 0.60.
+
+## Notes:
+### 0.60
+Due to the change in the method of early stopping, it is no longer necessary to set *qth* that is used as the criterion for stopping in SA and fullSA.  
+In later versions, *qth* will be removed.
 
 ## What
 Energy landscape analysis is a systematic method for analyzing an energy landscape represented as a weighted network (Fig. 1). In the energy landscape, the nodes of the network represent unique community compositions, and the links represent the transition paths between them. The community composition is described as a binary vector that represents the presence (1) and absence (0) of a species, and the links connect all nodes that differ only in the presence or absence of one species. The nodes are weighted by their energies, and the difference in energy level drives the direction of transitions in community composition. Transitions from high-energy states to low-energy states occur more frequently than vice versa. The energy is assigned by a pairwise maximum entropy model or its extension with an external force (environmental effect) term. The parameters of the model are estimated by matching the expected probability of community compositions given by the model to empirical probabilities calculated from the observed data. (For details of the method, see Suzuki et al. 2021.)  
