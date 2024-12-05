@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/645960152.svg)](https://zenodo.org/badge/latestdoi/645960152)
 # rELA
-An R package for energy landscape analysis. The latest version is 0.60.
+An R package for energy landscape analysis. The latest version is 0.60. This R package was originally developed by Hiroaki Fujita (URL).
 
 ## Notes:
 ### 0.60
