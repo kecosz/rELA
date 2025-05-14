@@ -1,8 +1,11 @@
 [![DOI](https://zenodo.org/badge/645960152.svg)](https://zenodo.org/badge/latestdoi/645960152)
 # rELA
-An R package for energy landscape analysis originally developed by Hiroaki Fujita ([hiroakif93](https://github.com/hiroakif93)). The latest version is 0.60.
+An R package for energy landscape analysis originally developed by Hiroaki Fujita ([hiroakif93](https://github.com/hiroakif93)). The latest version is 0.74.
 
 ## Notes:
+### 0.7x
+**IMPORTANT** We have discovered a critical flaw in versions 0.70–0.73. These versions have been removed and replaced with the alternative version (0.74).  
+
 ### 0.60
 Due to the change in the method of early stopping, it is no longer necessary to set *qth* that is used as the criterion for stopping in SA and fullSA. In later versions, *qth* will be removed.
 
