@@ -3,6 +3,14 @@
 An R package for energy landscape analysis originally developed by Hiroaki Fujita ([hiroakif93](https://github.com/hiroakif93)). The latest version is 0.74.
 
 ## Notes:
+### 0.80
+- Update in SA argorithm: Parameter for sparse-matrix is normalized by the number of species (matrix size), and fitting with more fixed parameters is now possible regardless of the number of species.
+- Update in random parameter set generation By running hb.params and HeatBath functions, species occurence matrix and environmental parameter matrix are randomly generated based on the known parameter sets (h,g, and J). Users freely can change the connectivity in species-species interactions.
+
+## 0.80.1
+- Fix the error in runELA function. Modifying sstable and tptable.
+
+
 ### 0.7x
 **IMPORTANT** We have discovered a critical flaw in versions 0.70–0.73. These versions have been removed and replaced with the alternative version (0.74).  
 
