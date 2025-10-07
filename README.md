@@ -15,15 +15,15 @@ An R package for energy landscape analysis originally developed by Hiroaki Fujit
 ### Fix the error in SSentropy, Stability, and gStability function.
 - The new SSentropy, Stability, gStability functions can show whether all stable state searches successfully converged and display whether the configuration used is sufficient for the target dataset.
 
-## 0.80.3
-- The unexpected behaviour in the SA function section that stores intermediate results has been fixed.
-
 ### Disconnectivity Graph with interquartile range
 - The SGD method usually produces deviations in the parameter estimation process.
 
 - The new function, bootstrap_ELA, performs bootstrap sampling on a series of estimated parameter sets and computes the variability of the estimated energies among the predicted stable states and tipping points.
 
 - The new showDG function considers variabilities in energies and displays a range as an IQR box plot for each stable state or tipping point.
+
+## 0.80.3
+- The unexpected behaviour in the SA function section that stores intermediate results has been fixed.
 
 ### 0.7x
 **IMPORTANT** We have discovered a critical flaw in versions 0.70–0.73. These versions have been removed and replaced with the alternative version (0.74).  
