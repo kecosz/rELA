@@ -15,6 +15,9 @@ An R package for energy landscape analysis originally developed by Hiroaki Fujit
 ### Fix the error in SSentropy, Stability, and gStability function.
 - The new SSentropy, Stability, gStability functions can show whether all stable state searches successfully converged and display whether the configuration used is sufficient for the target dataset.
 
+## 0.80.3
+- The unexpected behaviour in the SA function section that stores intermediate results has been fixed.
+
 ### Disconnectivity Graph with interquartile range
 - The SGD method usually produces deviations in the parameter estimation process.
 
