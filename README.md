@@ -8,21 +8,21 @@ An R package for energy landscape analysis originally developed by Hiroaki Fujit
 - Update in SA argorithm: Parameter for sparse-matrix is normalized by the number of species (matrix size), and fitting with more fixed parameters is now possible regardless of the number of species.
 - Update in random parameter set generation: By running hb.params and HeatBath functions, species occurence matrix and environmental parameter matrix are randomly generated based on the known parameter sets (h,g, and J). Users freely can change the connectivity in species-species interactions.
 
-## 0.80.1
+#### 0.80.1
 - Fix the error in runELA function. Modifying sstable and tptable.
 
-## 0.80.2
-### Fix the error in SSentropy, Stability, and gStability function.
+#### 0.80.2
+#### Fix the error in SSentropy, Stability, and gStability function.
 - The new SSentropy, Stability, gStability functions can show whether all stable state searches successfully converged and display whether the configuration used is sufficient for the target dataset.
 
-### Disconnectivity Graph with interquartile range
+#### Disconnectivity Graph with interquartile range
 - The SGD method usually produces deviations in the parameter estimation process.
 
 - The new function, bootstrap_ELA, performs bootstrap sampling on a series of estimated parameter sets and computes the variability of the estimated energies among the predicted stable states and tipping points.
 
 - The new showDG function considers variabilities in energies and displays a range as an IQR box plot for each stable state or tipping point.
 
-## 0.80.3
+#### 0.80.3
 - The unexpected behaviour in the SA function section that stores intermediate results has been fixed.
 
 ### 0.7x
