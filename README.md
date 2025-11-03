@@ -6,7 +6,7 @@ An R package for energy landscape analysis originally developed by Hiroaki Fujit
 ### 0.81
 - Implementing LDA algorithm in the preprocessing step based on Zhang and Nakaoka (2024, PLOS One). The Latent Dirichlet Allocation (LDA) model enables energy landscape analysis (ELA) to be performed in terms of microbiome assemblages, providing a more coarse-grained view of community state transitions.
 - The tutorial for LDA preprocessing step is currently available in ([rELA_LDA_tutorial.ipynb](https://github.com/kecosz/rELA/blob/main/rELA_LDA_tutorial.ipynb)).
-- Or users can manually load ([LDA.R]()) and use with their preferred version and environment of ELA.
+- Or users can manually load ([LDA.R](https://github.com/kecosz/rELA/blob/main/LDA.R)) and use with their preferred version and environment of ELA.
 
 ### 0.80
 - The issues in 0.70 -0.73 were fixed. 
